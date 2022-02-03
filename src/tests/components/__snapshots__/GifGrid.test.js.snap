@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests de <GifGrid/> Snapshot + Mock 1`] = `
+<Fragment>
+  <h3>
+    Konosuba
+  </h3>
+</Fragment>
+`;
+
+exports[`Tests de <GifGrid/> Test useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    Konosuba
+  </h3>
+  <GifGridItem
+    key="123"
+    title="Megumin"
+    url="https://wallpapercave.com/wp/wp5942828.jpg"
+  />
+</Fragment>
+`;

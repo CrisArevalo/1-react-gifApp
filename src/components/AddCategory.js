@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { PropTypes } from "prop-types";
+import "./AddCategoryStyles.scss";
 
 export const AddCategory = ({ setTags }) => {
     const [value, setValue] = useState("");
@@ -18,9 +19,22 @@ export const AddCategory = ({ setTags }) => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <input type="text" value={value} onChange={handleValueChange} />
-        </form>
+        <div className="wrapper">
+            <form onSubmit={handleSubmit}>
+                <h2 className="Title">GifExpertApp</h2>
+                <div className="Input">
+                    <input
+                        type="input"
+                        value={value}
+                        onChange={handleValueChange}
+                        placeholder="Introduce una tematica..."
+                        className="Input-text"
+                        id="input"
+                    />
+                    <label className="Input-label">Gif input</label>
+                </div>
+            </form>
+        </div>
     );
 };
 

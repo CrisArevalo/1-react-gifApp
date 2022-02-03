@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests en <GifGridItem/> Test Component - GifGridItem 1`] = `
+<Fragment>
+  <img
+    alt="123"
+    className="GifGrid animate__animated animate__bounce animate__bounceInRight"
+    src="https://wallpapercave.com/wp/wp5942828.jpg"
+  />
+</Fragment>
+`;

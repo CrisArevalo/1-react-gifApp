@@ -5,14 +5,7 @@ body {
     background-color: #1a1919;
 }
 
-input {
-    color: grey;
-    width: 50%;
-    margin-left: 2px;
-}
-
-h3,
-h2 {
+h3 {
     color: #fff;
 }
 
